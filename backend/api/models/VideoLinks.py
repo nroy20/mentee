@@ -5,7 +5,6 @@ from mongoengine import *
 
 class VideoLinks(Document, Mixin):
     """Video Links Collection"""
-
     Link = StringField(required=True)
     Tag = StringField(required=True)
 
